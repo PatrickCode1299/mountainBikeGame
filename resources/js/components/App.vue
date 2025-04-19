@@ -36,9 +36,11 @@
     color: white;
     font-weight: bold;
     font-size:55px;
-    text-shadow: 5px 2px 2px rgb(182, 118, 0);
+    text-shadow: 5px 2px 2px rgb(238, 107, 0);
     text-transform: uppercase;
     word-wrap: break-word;
+    font-family: Sarpanch;
+    font-weight: 900;
 }
 
 
