@@ -53,7 +53,7 @@
     padding:10px 10px;
     cursor: pointer;
     border-radius:20px;
-    width:150px;
+    width:250px;
 }
 
 
