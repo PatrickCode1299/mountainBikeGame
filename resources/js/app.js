@@ -1,5 +1,7 @@
 import './bootstrap';
 import App from './components/App.vue'
+import Road from './components/Road.vue';
+import Landing from './components/Landing.vue';
 import { createWebHistory, createRouter} from 'vue-router';
 import './bootstrap'
 import { createApp } from 'vue'
@@ -9,12 +11,13 @@ import { createApp } from 'vue'
 const routes = [
   {
     path: '/',
-    component: () => import('./components/App.vue') // lazy load Home.vue
+    component:Landing
 
   },
   {
+    name:'start',
     path: '/start',
-    component: () => import('./components/Road.vue') // lazy load Home.vue
+    component:Road
     
   },
 
