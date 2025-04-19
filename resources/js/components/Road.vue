@@ -1,5 +1,6 @@
 <template>
   <div ref="sceneContainer" class="w-full h-screen"></div>
+
 </template>
 
 <script setup>
@@ -32,6 +33,11 @@ onMounted(() => {
 
     renderer.render(scene, camera)
   }
+  const loader = new THREE.TextureLoader()
+loader.load('road_bg.jpeg', (texture) => {
+  scene.background = texture
+})
+
 
   animate()
 })
