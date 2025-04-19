@@ -2,6 +2,7 @@
 <div class="bg-full">
 <div class="overlay d-flex justify-content-center align-items-center">
 <h2>Super Speed <br /> Bike Racing</h2>
+<button class="btn btn-md start-btn">Start Now</button>
 </div>
 </div>
   
@@ -41,6 +42,18 @@
     word-wrap: break-word;
     font-family: Sarpanch;
     font-weight: 900;
+}
+.start-btn{
+    background-color:rgb(179, 116, 1);
+    color:white;
+    font-weight:bold;
+    font-size:35px;
+    font-family:sans-serif;
+    border:none;
+    padding:10px 10px;
+    cursor: pointer;
+    border-radius:20px;
+    width:150px;
 }
 
 

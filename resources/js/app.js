@@ -10,6 +10,12 @@ const routes = [
   {
     path: '/',
     component: () => import('./components/App.vue') // lazy load Home.vue
+
+  },
+  {
+    path: '/start',
+    component: () => import('./components/Road.vue') // lazy load Home.vue
+    
   },
 
 ]
